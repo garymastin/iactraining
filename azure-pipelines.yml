@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'AzureRmPipeline-rg'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/gmsavealot/AzureRmPipeline-repo/main/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/gmsavealot/AzureRmPipeline-repo/main/azuredeploy.json?token=ARI2QJIGPULC7VSOKJTLXMLAQME3G'
     overrideParameters: '-projectname IACTraining'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
